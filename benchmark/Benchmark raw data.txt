@@ -1,0 +1,285 @@
+-- Benchmark raw data 
+
+benchmarking Comparison between different proof search methods/BFS
+time                 168.8 μs   (161.8 μs .. 176.4 μs)
+                     0.987 R²   (0.977 R² .. 0.997 R²)
+mean                 164.9 μs   (161.3 μs .. 170.7 μs)
+std dev              15.64 μs   (8.091 μs .. 25.41 μs)
+variance introduced by outliers: 78% (severely inflated)
+
+benchmarking Comparison between different proof search methods/DFS
+time                 1.514 ms   (1.488 ms .. 1.531 ms)
+                     0.993 R²   (0.977 R² .. 1.000 R²)
+mean                 1.579 ms   (1.538 ms .. 1.740 ms)
+std dev              252.7 μs   (35.25 μs .. 529.6 μs)
+variance introduced by outliers: 86% (severely inflated)
+
+benchmarking Comparison between different proof search methods/BFS Strict
+time                 161.2 μs   (159.6 μs .. 164.5 μs)
+                     0.989 R²   (0.971 R² .. 1.000 R²)
+mean                 167.2 μs   (162.5 μs .. 179.9 μs)
+std dev              24.09 μs   (7.485 μs .. 43.34 μs)
+variance introduced by outliers: 90% (severely inflated)
+
+benchmarking Comparison between different proof search methods/DFS Strict
+time                 30.00 s    (29.98 s .. 30.03 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 30.00 s    (30.00 s .. 30.01 s)
+std dev              6.392 ms   (33.06 μs .. 7.494 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/BFS NoRepeat
+time                 72.05 ms   (68.56 ms .. 75.32 ms)
+                     0.997 R²   (0.994 R² .. 1.000 R²)
+mean                 69.04 ms   (68.24 ms .. 70.61 ms)
+std dev              1.881 ms   (1.129 ms .. 2.650 ms)
+
+benchmarking Comparison between different proof search methods/DFS NoRepeat
+time                 30.02 s    (30.00 s .. 30.02 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 30.01 s    (30.00 s .. 30.01 s)
+std dev              5.429 ms   (4.005 ms .. 6.377 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/DFS Backtrack
+time                 1.534 ms   (1.531 ms .. 1.536 ms)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 1.518 ms   (1.516 ms .. 1.522 ms)
+std dev              10.44 μs   (9.369 μs .. 11.87 μs)
+
+benchmarking Comparison between different proof search methods/BFS
+time                 30.04 s    (29.62 s .. 30.38 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 30.03 s    (30.00 s .. 30.10 s)
+std dev              63.21 ms   (31.04 μs .. 73.05 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/DFS
+time                 1.825 ms   (1.800 ms .. 1.850 ms)
+                     0.992 R²   (0.978 R² .. 0.999 R²)
+mean                 1.912 ms   (1.862 ms .. 2.045 ms)
+std dev              253.4 μs   (142.0 μs .. 457.9 μs)
+variance introduced by outliers: 80% (severely inflated)
+
+benchmarking Comparison between different proof search methods/BFS Strict
+time                 30.00 s    (30.00 s .. 30.00 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 30.00 s    (30.00 s .. 30.00 s)
+std dev              554.3 μs   (239.8 μs .. 723.6 μs)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/DFS Strict
+time                 29.97 s    (29.22 s .. 31.13 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 30.21 s    (30.00 s .. 30.42 s)
+std dev              269.0 ms   (95.32 μs .. 326.4 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/BFS NoRepeat
+time                 30.01 s    (30.00 s .. 30.02 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 30.01 s    (30.00 s .. 30.01 s)
+std dev              2.355 ms   (1.414 ms .. 2.895 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/DFS NoRepeat
+time                 30.01 s    (29.99 s .. 30.02 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 30.01 s    (30.01 s .. 30.02 s)
+std dev              5.437 ms   (1.997 ms .. 7.396 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/DFS Backtrack
+time                 1.807 ms   (1.805 ms .. 1.808 ms)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 1.805 ms   (1.804 ms .. 1.806 ms)
+std dev              3.951 μs   (3.125 μs .. 5.624 μs)
+
+benchmarking Comparison between different proof search methods/BFS
+time                 5.372 ms   (5.355 ms .. 5.391 ms)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 5.403 ms   (5.397 ms .. 5.412 ms)
+std dev              22.05 μs   (15.95 μs .. 33.23 μs)
+
+benchmarking Comparison between different proof search methods/DFS
+time                 48.42 μs   (48.40 μs .. 48.44 μs)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 48.42 μs   (48.41 μs .. 48.45 μs)
+std dev              59.58 ns   (34.60 ns .. 101.2 ns)
+
+benchmarking Comparison between different proof search methods/BFS Strict
+time                 5.366 ms   (5.354 ms .. 5.383 ms)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 5.405 ms   (5.397 ms .. 5.411 ms)
+std dev              20.82 μs   (16.68 μs .. 25.96 μs)
+
+benchmarking Comparison between different proof search methods/DFS Strict
+time                 49.10 μs   (48.99 μs .. 49.24 μs)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 49.13 μs   (49.00 μs .. 49.54 μs)
+std dev              816.8 ns   (105.0 ns .. 1.566 μs)
+variance introduced by outliers: 12% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/BFS NoRepeat
+time                 18.34 ms   (17.56 ms .. 18.68 ms)
+                     0.991 R²   (0.969 R² .. 1.000 R²)
+mean                 19.03 ms   (18.62 ms .. 20.82 ms)
+std dev              1.652 ms   (42.79 μs .. 3.496 ms)
+variance introduced by outliers: 39% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/DFS NoRepeat
+time                 500.5 μs   (500.3 μs .. 500.8 μs)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 501.2 μs   (501.0 μs .. 501.4 μs)
+std dev              745.4 ns   (599.0 ns .. 895.0 ns)
+
+benchmarking Comparison between different proof search methods/DFS Backtrack
+time                 48.63 μs   (48.62 μs .. 48.65 μs)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 48.63 μs   (48.62 μs .. 48.66 μs)
+std dev              51.57 ns   (27.65 ns .. 96.80 ns)
+
+benchmarking Comparison between different proof search methods/BFS
+time                 30.00 s    (29.97 s .. 30.05 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 30.02 s    (30.00 s .. 30.02 s)
+std dev              11.25 ms   (4.799 ms .. 15.35 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/DFS
+time                 1.733 ms   (1.729 ms .. 1.738 ms)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 1.731 ms   (1.730 ms .. 1.733 ms)
+std dev              6.373 μs   (4.499 μs .. 8.734 μs)
+
+benchmarking Comparison between different proof search methods/BFS Strict
+time                 30.02 s    (30.01 s .. 30.03 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 30.02 s    (30.01 s .. 30.02 s)
+std dev              3.543 ms   (1.932 ms .. 4.433 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/DFS Strict
+time                 30.01 s    (30.00 s .. 30.02 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 30.02 s    (30.01 s .. 30.02 s)
+std dev              4.052 ms   (2.631 ms .. 4.888 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/BFS NoRepeat
+time                 30.01 s    (30.00 s .. 30.02 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 30.01 s    (30.01 s .. 30.02 s)
+std dev              3.466 ms   (700.0 μs .. 4.215 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/DFS NoRepeat
+time                 30.01 s    (29.98 s .. 30.03 s)
+                     1.000 R²   (NaN R² .. 1.000 R²)
+mean                 30.01 s    (30.00 s .. 30.01 s)
+std dev              5.156 ms   (1.958 ms .. 7.071 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/DFS Backtrack
+time                 1.330 ms   (930.4 μs .. 1.736 ms)
+                     0.384 R²   (0.192 R² .. 0.623 R²)
+mean                 3.836 ms   (3.215 ms .. 4.786 ms)
+std dev              2.529 ms   (1.915 ms .. 3.395 ms)
+variance introduced by outliers: 98% (severely inflated)
+
+benchmarking Comparison between different proof search methods/BFS
+time                 21.87 s    (20.79 s .. 23.40 s)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 21.25 s    (20.89 s .. 21.55 s)
+std dev              428.5 ms   (350.0 ms .. 488.6 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/DFS
+time                 1.026 ms   (979.2 μs .. 1.122 ms)
+                     0.804 R²   (0.655 R² .. 0.941 R²)
+mean                 1.297 ms   (1.177 ms .. 1.501 ms)
+std dev              516.8 μs   (376.2 μs .. 767.3 μs)
+variance introduced by outliers: 98% (severely inflated)
+
+benchmarking Comparison between different proof search methods/BFS Strict
+time                 17.24 s    (17.03 s .. 17.54 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 17.28 s    (17.21 s .. 17.33 s)
+std dev              70.69 ms   (31.66 ms .. 92.97 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/DFS Strict
+time                 30.00 s    (30.00 s .. 30.00 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 30.00 s    (30.00 s .. 30.00 s)
+std dev              956.8 μs   (138.0 μs .. 1.225 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/BFS NoRepeat
+time                 26.18 s    (26.07 s .. 26.40 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 25.91 s    (25.75 s .. 26.00 s)
+std dev              156.2 ms   (63.03 ms .. 214.9 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/DFS NoRepeat
+time                 12.80 s    (9.867 s .. 14.41 s)
+                     0.993 R²   (0.986 R² .. 1.000 R²)
+mean                 13.18 s    (12.72 s .. 13.62 s)
+std dev              511.7 ms   (442.0 ms .. 546.8 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/DFS Backtrack
+time                 1.012 ms   (1.006 ms .. 1.019 ms)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 1.013 ms   (1.010 ms .. 1.017 ms)
+std dev              12.69 μs   (9.863 μs .. 17.00 μs)
+
+benchmarking Comparison between different proof search methods/BFS
+time                 20.51 μs   (20.29 μs .. 20.79 μs)
+                     0.997 R²   (0.994 R² .. 0.999 R²)
+mean                 20.74 μs   (20.55 μs .. 21.12 μs)
+std dev              850.7 ns   (542.9 ns .. 1.428 μs)
+variance introduced by outliers: 48% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/DFS
+time                 72.38 μs   (71.44 μs .. 74.04 μs)
+                     0.989 R²   (0.968 R² .. 0.999 R²)
+mean                 73.81 μs   (72.18 μs .. 82.38 μs)
+std dev              9.166 μs   (2.557 μs .. 21.33 μs)
+variance introduced by outliers: 88% (severely inflated)
+
+benchmarking Comparison between different proof search methods/BFS Strict
+time                 20.60 μs   (20.39 μs .. 20.84 μs)
+                     0.999 R²   (0.999 R² .. 1.000 R²)
+mean                 20.46 μs   (20.36 μs .. 20.61 μs)
+std dev              386.4 ns   (309.8 ns .. 499.5 ns)
+variance introduced by outliers: 17% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/DFS Strict
+time                 30.05 s    (30.00 s .. 30.15 s)
+                     1.000 R²   (NaN R² .. 1.000 R²)
+mean                 30.01 s    (30.00 s .. 30.03 s)
+std dev              18.80 ms   (18.77 μs .. 21.78 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Comparison between different proof search methods/BFS NoRepeat
+time                 65.85 μs   (63.68 μs .. 68.44 μs)
+                     0.990 R²   (0.975 R² .. 0.999 R²)
+mean                 64.29 μs   (63.34 μs .. 66.78 μs)
+std dev              4.887 μs   (1.858 μs .. 9.600 μs)
+variance introduced by outliers: 73% (severely inflated)
+
+benchmarking Comparison between different proof search methods/DFS NoRepeat
+time                 64.45 μs   (63.52 μs .. 65.78 μs)
+                     0.997 R²   (0.993 R² .. 0.999 R²)
+mean                 64.62 μs   (63.84 μs .. 65.91 μs)
+std dev              3.355 μs   (2.312 μs .. 5.226 μs)
+variance introduced by outliers: 56% (severely inflated)
+
+benchmarking Comparison between different proof search methods/DFS Backtrack
+time                 72.13 μs   (71.46 μs .. 72.83 μs)
+                     0.991 R²   (0.968 R² .. 1.000 R²)
+mean                 75.99 μs   (71.71 μs .. 92.36 μs)
+std dev              27.05 μs   (1.674 μs .. 57.54 μs)
+variance introduced by outliers: 99% (severely inflated)

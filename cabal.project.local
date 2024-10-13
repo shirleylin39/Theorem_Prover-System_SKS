@@ -1,0 +1,7 @@
+ignore-project: False
+
+package *
+  happy-location: /Users/shirley/.cabal/bin/happy
+
+program-locations
+  happy-location: /Users/shirley/.cabal/bin/happy
