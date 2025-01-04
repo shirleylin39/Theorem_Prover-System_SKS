@@ -2,7 +2,7 @@
 # Implementation of Deep Inference System SKS Theorem Prover in Haskell
 
 ## Overview
-This project uses the Haskell programming language to implement a Theorem Prover for the classical propositional logic system SKS in deep inference. Deep inference is a methodology for designing proof theoretical formalisms, in which inference rules can be applied arbitrarily deeply inside the formula. The application features both Automated and Interactive Theorem Provers, designed to facilitate an understanding of proof theory, deep inference, and the construction of proof trees.
+ Deep inference is a methodology for designing proof theoretical formalisms, in which inference rules can be applied arbitrarily deeply inside the formula. This project uses the Haskell programming language to implement a Theorem Prover for the classical propositional logic system SKS in deep inference. The application features both Automated and Interactive Theorem Provers, designed to facilitate an understanding of proof theory, deep inference, and the construction of proof trees. Watch the demonstration on [Youtube](https://www.youtube.com/watch?v=tQt4fDQay1g).
 
 ## Features
 
@@ -25,11 +25,10 @@ Uses search algorithms such as Breadth-First Search (BFS) and Depth-First Search
 
 ### Interactive Proof Search 
 A proof-assistant that enables step-by-step proof construction by user.
-![ITP](images/ITP.png)
 ![ITP](images/ITP3.png)
 
 ### Optimised Inference Rules and Search Methods
-Adding constraints on inference rules and heuristics on search methods to reduce non-determinism and optimizing proof search.
+Adding constraints on inference rules and heuristics on search algorithms to reduce non-determinism and optimizing proof search.
 
 ## Key Concepts
 
@@ -69,27 +68,27 @@ cabal update
 cabal install
 ```
 
-### Build the project:
+### Build the project
 
 To compile the project, use:
 ```bash
 cabal build
 ```
 
-### Run the project:
+### Run the project
 
 To run the project, use:
 ```bash
 cabal run
 ```
 
-### Testing:
+### Testing
 The unit testing of each inference rule was conducted with the HUnit framework, you can run it with
 ```bash
 cabal test
 ```
 
-## Project Structure
+### Project Structure
 
 - `src/`: Contains the Haskell source code.
 - `test/`: Contains the unit test file.
@@ -97,59 +96,7 @@ cabal test
 - `dist-newstyle/`: Output directory for compiled files.
 - `System-SKS.cabal`: The Cabal configuration file, which defines the package, dependencies, and other settings.
 
-## Cleaning Up
-
-To clean up the build artifacts:
-
-```bash
-cabal clean
-```
-
-## Getting Started
-
-
-### Install dependencies:
-
-Run the following command to install the necessary dependencies specified in the `.cabal` file:
-
-```bash
-cabal update
-cabal install
-```
-
-### Build the project:
-
-To compile the project, use:
-
-```bash
-cabal build
-```
-
-### Run the project:
-
-To run the project, use:
-
-```bash
-cabal run
-```
-
-### Testing:
-
-If you have a test suite set up, you can run it with:
-
-```bash
-cabal test
-```
-
-## Project Structure
-
-- `src/`: Contains the Haskell source code.
-- `test/`: Contains the unit test file.
-- `benchmark/`: Contains the benchmark file and previous raw data.
-- `dist-newstyle/`: Output directory for compiled files.
-- `System-SKS.cabal`: The Cabal configuration file, which defines the package, dependencies, and other settings.
-
-## Cleaning Up
+### Cleaning Up
 
 To clean up the build artifacts:
 
